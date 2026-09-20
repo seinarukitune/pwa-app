@@ -1,0 +1,20 @@
+{
+  "name": "介護のことば / Kaigo Words",
+  "short_name": "介護のことば",
+  "description": "介護福祉士国家試験の設問を読み解くための語彙学習アプリ / Vocabulary app for reading care worker exam questions",
+  "lang": "ja",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f4f7",
+  "theme_color": "#2f5d8a",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
