@@ -2,7 +2,7 @@
    ビルドのたびに CACHE の名前が変わるので、古い控えは自動で消える。
    Service worker: app shell cache. The cache name is stamped at build time,
    so a new build replaces the old copy automatically. */
-var CACHE = "kaigo-words-20260917-173730";
+var CACHE = "kaigo-words-20260930-002650";
 var SHELL = "./index.html";
 var ASSETS = ["./", SHELL, "./manifest.webmanifest",
               "./icon-192.png", "./icon-512.png",
