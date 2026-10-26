@@ -2259,7 +2259,8 @@ function bind(){
   if(tr) tr.onclick = function(){ S.settings.showRomaji = !S.settings.showRomaji; save(); render(); };
   var te = document.getElementById("tgEnglish");
   if(te) te.onclick = function(){ S.settings.showEnglish = !S.settings.showEnglish; save(); render(); };
-  document.querySelectorAll("[data-size]").forEach(function(b){
+  /* 文字の大きさのボタンだけ（<html> にも data-size があるので button に限る） */
+  document.querySelectorAll("button[data-size]").forEach(function(b){
     b.onclick = function(){ S.settings.fontSize = b.dataset.size; applySize(); save(); render(); };
   });
   document.querySelectorAll("[data-goal]").forEach(function(b){
